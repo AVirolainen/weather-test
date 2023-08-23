@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #1c6be1, #007ce7, #008ceb, #009aec, #12a8eb);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.headerName {
+  font-weight: 900;
   color: white;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.cityNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.cityName {
+  margin-right: 20px;
+}
+
+.cityInput {
+  border-radius: 5px;
+  padding-left: 15px;
+  height: 40px;
+  border: 0;
+}
+
+.cityInput:focus {
+  outline: none;
+}
+
+.cityButton {
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.infoWrapper {
+  display: flex;
+  margin-top: 40px;
 }

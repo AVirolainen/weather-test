@@ -1,0 +1,27 @@
+.weatherInfo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  color: white;
+  font-weight: 900;
+  font-size: 34px;
+}
+
+.weatherIcon {
+  min-width: 100px;
+}
+
+.weatherItemInfo {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
